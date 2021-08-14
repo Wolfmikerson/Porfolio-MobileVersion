@@ -1,4 +1,4 @@
-Portfolio: setup a mobile version
+Portfolio (2nd version): setup a mobile version
 
 
 ![screenshot](https://i.imgur.com/tPMZxHx.png)
@@ -7,7 +7,7 @@ Portfolio: setup a mobile version
 ## Built With
 
 - HTML5
-- CSS
+- CSS (FlexBox and Grid combined)
 - GIT / GITHUB
 
 ## Authors
