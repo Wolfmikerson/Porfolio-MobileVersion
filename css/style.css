@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Poppins);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 body {
   margin: 0%;
@@ -23,7 +23,7 @@ body {
 
 .default-display-flex {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .default-list-style {
@@ -119,7 +119,6 @@ body {
   align-items: center;
 }
 
-
 .image {
   width: 90%;
   border-radius: 8px;
@@ -127,15 +126,15 @@ body {
 }
 
 .tonic {
-margin: 1rem;
-align-self: flex-start;
-font-family: "Poppins";
-font-size: 32px;
-font-style: normal;
-font-weight: bold;
-line-height: 44px;
-letter-spacing: 0em;
-color:#172B4D;
+  margin: 1rem;
+  align-self: flex-start;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 44px;
+  letter-spacing: 0;
+  color: #172b4d;
 }
 
 .list-item {
@@ -149,7 +148,7 @@ color:#172B4D;
   position: static;
   width: 55px;
   height: 16px;
-  left: 0px;
+  left: 0;
   top: 8px;
   font-family: Poppins;
   font-style: normal;
@@ -160,91 +159,91 @@ color:#172B4D;
 }
 
 .counter {
-margin-right: 15px;
+  margin-right: 15px;
 }
 
 .backdev {
-margin-right: 15px;
-position: static;
-width: 88px;
-height: 16px;
-left: 0px;
-top: 8px;
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 13px;
-line-height: 16px;
-color: #7A869A;
+  margin-right: 15px;
+  position: static;
+  width: 88px;
+  height: 16px;
+  left: 0;
+  top: 8px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
 }
 
 .year {
-position: static;
-width: 29px;
-height: 16px;
-left: 0px;
-top: 8px;
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 13px;
-line-height: 16px;
-color: #7A869A;
+  position: static;
+  width: 29px;
+  height: 16px;
+  left: 0;
+  top: 8px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
 }
 
 .para {
-margin: 15px;
-display: flex;
-position: static;
-width: 295px;
-height: 76px;
-left: 0px;
-top: 92px;
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 15px;
-line-height: 24px;
-color: #344563;
+  margin: 15px;
+  display: flex;
+  position: static;
+  width: 295px;
+  height: 76px;
+  left: 0;
+  top: 92px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
 }
 
 .htm {
-display: flex;
-margin-right: 15px;
-position: static;
-width: 29px;
-height: 16px;
-left: 12px;
-top: 4px;
-font-family: Poppins;
-font-style: normal;
-font-weight: 500px;
-font-size: 12px;
-line-height: 16px;
-letter-spacing: 0.03em;
-background-color: rgb(211, 211, 211);
-color: #6070FF;
-padding: 0.3rem 0.3rem 0.3rem 0.3rem;
-border-radius: 4px;
+  display: flex;
+  margin-right: 15px;
+  position: static;
+  width: 29px;
+  height: 16px;
+  left: 12px;
+  top: 4px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  background-color: rgb(211, 211, 211);
+  color: #6070ff;
+  padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+  border-radius: 4px;
 }
 
 .css {
-display: flex;
-margin-right: 15px;
-position: static;
-height: 16px;
-left: 12px;
-top: 4px;
-font-family: Poppins;
-font-style: normal;
-font-weight: 500px;
-font-size: 12px;
-line-height: 16px;
-letter-spacing: 0.03em;
-background-color: lightgray;
-Color: #6070FF;
-padding: 0.3rem 0.3rem 0.3rem 0.3rem;
-border-radius: 4px;
+  display: flex;
+  margin-right: 15px;
+  position: static;
+  height: 16px;
+  left: 12px;
+  top: 4px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  background-color: lightgray;
+  color: #6070ff;
+  padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+  border-radius: 4px;
 }
 
 .script {
@@ -260,30 +259,116 @@ border-radius: 4px;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  background-color:silver;
-  color: #6070FF;
+  background-color: silver;
+  color: #6070ff;
   padding: 0.3rem 0.3rem 0.3rem 0.3rem;
   border-radius: 4px;
 }
 
 .but {
-margin: 15px;
-display: flex;
+  margin: 15px;
+  display: flex;
+  align-self: flex-start;
+  position: static;
+  height: 40px;
+  left: 12px;
+  top: 12px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  background-color: white;
+  border: 1px solid blue;
+  border-radius: 4px;
+}
+
+
+/* .lan {
 align-self: flex-start;
-position: static;
-height: 40px;
-left: 12px;
-top: 12px;
-font-family: Poppins;
-font-style: normal;
-font-weight: 500;
-font-size: 17px;
-line-height: 24px;
-align-items: center;
-text-align: center;
-letter-spacing: 0.03em;
-color: #396DF2;
-background-color: white;
-border: 1px solid blue;
-border-radius: 4px;
+list-style: none;
+margin-bottom: 0px;
+justify-content: space-around;
+}
+
+.frame {
+  align-self: flex-start;
+  list-style: none;
+  margin-bottom: 0px;
+}
+
+.skill {
+  align-self: flex-start;
+  list-style: none;
+  }
+
+  .pro {
+  align-self: flex-start;
+  list-style: none;
+  margin-bottom: 0px;
+  }
+*/
+
+.lan,
+.frame,
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem 1rem 0;
+  margin: 0 1rem 1rem 1rem;
+}
+
+.second-list-tyle {
+  margin-bottom: 0;
+}
+
+.first-list-style {
+  justify-content: space-between;
+}
+
+.but1 {
+  align-self: flex-start;
+}
+
+.pro {
+  display: flex;
+  align-items: center;
+  margin: 0 2.5rem 2rem 1rem;
+  background-color: #f7f7f9;
+  border-radius: 1rem;
+  padding: 0.5rem 0 0.5rem 0;
+  text-align: center;
+}
+
+.lang {
+  height: 24px;
+  left: 12px;
+  right: 78px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+}
+
+.jsi {
+  margin: 5px;
+}
+
+.js {
+  margin: 5px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #253858;
 }
