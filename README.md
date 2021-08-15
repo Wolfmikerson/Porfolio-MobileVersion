@@ -1,4 +1,4 @@
-Portfolio: setup a mobile version
+Portfolio (2nd version): setup a mobile version
 
 
 ![screenshot](https://i.imgur.com/tPMZxHx.png)
@@ -7,16 +7,16 @@ Portfolio: setup a mobile version
 ## Built With
 
 - HTML5
-- CSS
+- CSS (FlexBox and Grid combined)
 - GIT / GITHUB
 
 ## Authors
 
 👤 **Wolf M. Jacques**
 
-- GitHub: Wolfmikerson
-- Twitter: @wolfmikerson
-- LinkedIn: [LinkedIn] https://www.linkedin.com/in/wolf-m-jacques-27a38612a/)
+- GitHub: Wolfmikerson (https://github.com/Wolfmikerson)
+- Twitter: @wolfmikerson (https://twitter.com/MikersonWolf)
+- LinkedIn: [Wolf_LinkedIn](https://www.linkedin.com/in/wolf-m-jacques-27a38612a/)
 
 
 
@@ -38,7 +38,7 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
 474aaf002138073032781f15448db7f41f4d07b1
 
 ## Show your support
