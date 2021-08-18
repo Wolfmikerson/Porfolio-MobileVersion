@@ -311,7 +311,11 @@ body {
 }
 
 .but1 {
-  align-self: flex-start;
+  flex-basis: 100%;
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 160px;
 }
 
 .pro {
