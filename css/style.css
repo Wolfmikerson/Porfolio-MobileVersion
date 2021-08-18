@@ -103,7 +103,9 @@ body {
 }
 
 .grid-container {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-template-columns: auto;
   grid-template-columns: auto;
   padding: 30px 30px;
   row-gap: 5rem;
@@ -348,4 +350,37 @@ body {
   display: flex;
   align-items: center;
   color: #253858;
+}
+
+.footer {
+  background-color: #6070ff;
+  font-style: normal;
+  font-family: Poppins, sans-serif;
+}
+
+.contactme {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+}
+
+.form-description {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+}
+
+.form-element {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+}
+
+.form-element::placeholder {
+  color: #b3bac5;
 }
