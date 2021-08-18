@@ -360,6 +360,11 @@ body {
   background-color: #6070ff;
   font-style: normal;
   font-family: Poppins, sans-serif;
+  height: 779px;
+  border-radius: 100px 0 0 0;
+  padding-top: 103px;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 .contactme {
