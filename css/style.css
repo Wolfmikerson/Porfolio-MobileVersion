@@ -103,7 +103,9 @@ body {
 }
 
 .grid-container {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-template-columns: auto;
   grid-template-columns: auto;
   padding: 30px 30px;
   row-gap: 5rem;
