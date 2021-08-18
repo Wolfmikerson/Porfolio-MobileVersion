@@ -406,6 +406,10 @@ input.form-element {
   width: 327px;
 }
 
+textarea.form-element {
+  height: 170px;
+}
+
 .form-element::placeholder {
   color: #b3bac5;
 }
