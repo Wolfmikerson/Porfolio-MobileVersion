@@ -401,6 +401,11 @@ body {
   border: 1px solid #cfd8dc;
 }
 
+input.form-element {
+  height: 48px;
+  width: 327px;
+}
+
 .form-element::placeholder {
   color: #b3bac5;
 }
