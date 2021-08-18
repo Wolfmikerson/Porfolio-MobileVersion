@@ -364,3 +364,23 @@ body {
   line-height: 52px;
   color: #fff;
 }
+
+.form-description {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+}
+
+.form-element {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+}
+
+.form-element::placeholder {
+  color: #b3bac5;
+}
