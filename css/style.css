@@ -374,6 +374,10 @@ body {
   color: #fff;
 }
 
+.form {
+  flex-wrap: wrap;
+}
+
 .form-description {
   font-weight: normal;
   font-size: 20px;
