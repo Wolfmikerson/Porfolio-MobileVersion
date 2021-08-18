@@ -351,3 +351,9 @@ body {
   align-items: center;
   color: #253858;
 }
+
+.footer {
+  background-color: #6070ff;
+  font-style: normal;
+  font-family: Poppins, sans-serif;
+}
