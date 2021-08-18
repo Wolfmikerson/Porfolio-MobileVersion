@@ -383,6 +383,8 @@ body {
   font-size: 20px;
   line-height: 28px;
   color: #ebebff;
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 .form-element {
