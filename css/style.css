@@ -376,6 +376,7 @@ body {
 
 .form {
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .form-description {
@@ -408,8 +409,13 @@ input.form-element {
 
 textarea.form-element {
   height: 170px;
+  flex: 1 0 auto;
 }
 
 .form-element::placeholder {
   color: #b3bac5;
+}
+
+.flex-auto {
+  flex: 1 0 auto;
 }
