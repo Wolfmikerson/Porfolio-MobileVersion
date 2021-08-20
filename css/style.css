@@ -419,3 +419,19 @@ textarea.form-element {
 .flex-auto {
   flex: 1 0 auto;
 }
+
+.but:enabled {
+  background-color: #FFFFFF;
+}
+
+.but:hover {
+  background-color: #6070FF;
+}
+
+.but:disabled {
+  color: #5E6C84;
+}
+
+.but:active {
+  background-color: #2230d2;
+}
