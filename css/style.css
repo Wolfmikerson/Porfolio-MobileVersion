@@ -421,7 +421,8 @@ textarea.form-element {
 }
 
 .but:enabled {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
+  border: 1px solid #7F8CFF;
 }
 
 .but:hover {
